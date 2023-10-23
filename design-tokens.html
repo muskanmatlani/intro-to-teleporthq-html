@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Design-Tokens - Intro to teleportHQ</title>
+    <meta
+      name="description"
+      content="This project will introduce you to the capabilities of teleportHQ. Learn to navigate around the app and go through the main features with us."
+    />
+    <meta property="og:title" content="Design-Tokens - Intro to teleportHQ" />
+    <meta
+      property="og:description"
+      content="This project will introduce you to the capabilities of teleportHQ. Learn to navigate around the app and go through the main features with us."
+    />
+    <meta
+      property="og:image"
+      content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/17bf2669-1132-4cd0-acd9-9dd31cf7fcfa/8615b01c-77df-49d1-89ab-bbcb403499dd?org_if_sml=1&amp;force_format=original"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 300;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: -0.5px;
+        line-height: 1.2;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./design-tokens.css" rel="stylesheet" />
+
+      <div class="design-tokens-container">
+        <div class="design-tokens-container1">
+          <div class="design-tokens-container2">
+            <div class="heading-container">
+              <img alt="image" src="public/logo.svg" class="heading-image" />
+              <h1 class="heading-text Heading"><span>Design Tokens</span></h1>
+              <span class="heading-text1 Subheading">
+                <span>
+                  Set up your design language for a consistent look across your
+                  project
+                </span>
+              </span>
+            </div>
+            <div class="design-tokens-ul">
+              <div class="list-item-container">
+                <svg viewBox="0 0 1024 1024" class="list-item-icon">
+                  <path
+                    d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"
+                  ></path>
+                </svg>
+                <span class="list-item-text">
+                  <span>
+                    Go to the Design Tokens Panel to see the available text
+                    styles, color and layout tokens
+                  </span>
+                </span>
+              </div>
+              <div class="tip-tip">
+                <svg viewBox="0 0 1024 1024" class="tip-icon">
+                  <path
+                    d="M146.286 768c0-20-16.571-36.571-36.571-36.571s-36.571 16.571-36.571 36.571 16.571 36.571 36.571 36.571 36.571-16.571 36.571-36.571zM950.857 438.857c0-38.857-34.857-73.143-73.143-73.143h-329.143c0-36 54.857-73.143 54.857-146.286 0-54.857-42.857-73.143-91.429-73.143-16 0-45.143 66.286-51.429 79.429-6.857 12.571-13.714 25.143-21.143 37.143-18.857 30.286-40.571 56.571-64 82.857-36.571 41.714-77.143 93.143-137.714 93.143h-18.286v365.714h18.286c100 0 197.714 73.143 308.571 73.143 64 0 108-26.857 108-95.429 0-10.857-1.143-21.714-2.857-32 24-13.143 37.143-45.714 37.143-72 0-13.714-3.429-27.429-10.286-39.429 19.429-18.286 30.286-41.143 30.286-68 0-18.286-8-45.143-20-58.857h189.143c39.429 0 73.143-33.714 73.143-73.143zM1024 438.286c0 80-66.286 146.857-146.286 146.857h-96.571c-1.714 24-9.143 46.857-21.143 68 1.143 8 1.714 16.571 1.714 24.571 0 36.571-12 73.143-34.286 101.714 1.143 108-72.571 171.429-178.286 171.429-64 0-124.571-17.714-184-39.429-34.857-12.571-91.429-33.714-127.429-33.714h-164.571c-40.571 0-73.143-32.571-73.143-73.143v-365.714c0-40.571 32.571-73.143 73.143-73.143h164.571c27.429 0 66.286-49.143 82.857-68 20.571-23.429 40-46.857 57.143-73.714 33.143-53.143 57.714-150.857 134.286-150.857 90.857 0 164.571 49.714 164.571 146.286 0 25.143-4 49.714-12.571 73.143h213.714c78.857 0 146.286 66.857 146.286 145.714z"
+                  ></path>
+                </svg>
+                <span class="tip-text Tooltip">
+                  <span>
+                    To see the Design Tokens panel you need to click outside of
+                    the canvas
+                  </span>
+                </span>
+              </div>
+              <div class="list-item-container">
+                <svg viewBox="0 0 1024 1024" class="list-item-icon">
+                  <path
+                    d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"
+                  ></path>
+                </svg>
+                <span class="list-item-text">
+                  <span>
+                    Select the button to begin styling it from the Visual
+                    Inspector
+                  </span>
+                </span>
+              </div>
+              <div class="list-item-container">
+                <svg viewBox="0 0 1024 1024" class="list-item-icon">
+                  <path
+                    d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"
+                  ></path>
+                </svg>
+                <span class="list-item-text">
+                  <span>
+                    Try changing the padding and background color using tokens
+                  </span>
+                </span>
+              </div>
+              <div class="tip-tip">
+                <svg viewBox="0 0 1024 1024" class="tip-icon">
+                  <path
+                    d="M146.286 768c0-20-16.571-36.571-36.571-36.571s-36.571 16.571-36.571 36.571 16.571 36.571 36.571 36.571 36.571-16.571 36.571-36.571zM950.857 438.857c0-38.857-34.857-73.143-73.143-73.143h-329.143c0-36 54.857-73.143 54.857-146.286 0-54.857-42.857-73.143-91.429-73.143-16 0-45.143 66.286-51.429 79.429-6.857 12.571-13.714 25.143-21.143 37.143-18.857 30.286-40.571 56.571-64 82.857-36.571 41.714-77.143 93.143-137.714 93.143h-18.286v365.714h18.286c100 0 197.714 73.143 308.571 73.143 64 0 108-26.857 108-95.429 0-10.857-1.143-21.714-2.857-32 24-13.143 37.143-45.714 37.143-72 0-13.714-3.429-27.429-10.286-39.429 19.429-18.286 30.286-41.143 30.286-68 0-18.286-8-45.143-20-58.857h189.143c39.429 0 73.143-33.714 73.143-73.143zM1024 438.286c0 80-66.286 146.857-146.286 146.857h-96.571c-1.714 24-9.143 46.857-21.143 68 1.143 8 1.714 16.571 1.714 24.571 0 36.571-12 73.143-34.286 101.714 1.143 108-72.571 171.429-178.286 171.429-64 0-124.571-17.714-184-39.429-34.857-12.571-91.429-33.714-127.429-33.714h-164.571c-40.571 0-73.143-32.571-73.143-73.143v-365.714c0-40.571 32.571-73.143 73.143-73.143h164.571c27.429 0 66.286-49.143 82.857-68 20.571-23.429 40-46.857 57.143-73.714 33.143-53.143 57.714-150.857 134.286-150.857 90.857 0 164.571 49.714 164.571 146.286 0 25.143-4 49.714-12.571 73.143h213.714c78.857 0 146.286 66.857 146.286 145.714z"
+                  ></path>
+                </svg>
+                <span class="tip-text Tooltip">
+                  <span>
+                    Notice that some inputs support color tokens, others layout
+                    tokens and some don't support tokens at all
+                  </span>
+                </span>
+              </div>
+              <div class="design-tokens-container3">
+                <div class="list-item-container">
+                  <svg viewBox="0 0 1024 1024" class="list-item-icon">
+                    <path
+                      d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"
+                    ></path>
+                  </svg>
+                  <span class="list-item-text">
+                    <span>
+                      Go to the Text Style section in the Inspector and link the
+                      desired text style token by clicking the icon
+                    </span>
+                  </span>
+                </div>
+                <div class="design-tokens-container4">
+                  <svg viewBox="0 0 1024 1024" class="design-tokens-icon">
+                    <path
+                      d="M440.236 635.766c-13.31 0-26.616-5.076-36.77-15.23-95.134-95.136-95.134-249.934 0-345.070l192-192c46.088-46.086 107.36-71.466 172.534-71.466s126.448 25.38 172.536 71.464c95.132 95.136 95.132 249.934 0 345.070l-87.766 87.766c-20.308 20.308-53.23 20.308-73.54 0-20.306-20.306-20.306-53.232 0-73.54l87.766-87.766c54.584-54.586 54.584-143.404 0-197.99-26.442-26.442-61.6-41.004-98.996-41.004s-72.552 14.562-98.996 41.006l-192 191.998c-54.586 54.586-54.586 143.406 0 197.992 20.308 20.306 20.306 53.232 0 73.54-10.15 10.152-23.462 15.23-36.768 15.23z"
+                    ></path>
+                    <path
+                      d="M256 1012c-65.176 0-126.45-25.38-172.534-71.464-95.134-95.136-95.134-249.934 0-345.070l87.764-87.764c20.308-20.306 53.234-20.306 73.54 0 20.308 20.306 20.308 53.232 0 73.54l-87.764 87.764c-54.586 54.586-54.586 143.406 0 197.992 26.44 26.44 61.598 41.002 98.994 41.002s72.552-14.562 98.998-41.006l192-191.998c54.584-54.586 54.584-143.406 0-197.992-20.308-20.308-20.306-53.232 0-73.54 20.306-20.306 53.232-20.306 73.54 0.002 95.132 95.134 95.132 249.932 0.002 345.068l-192.002 192c-46.090 46.088-107.364 71.466-172.538 71.466z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <div class="tip-tip">
+                <svg viewBox="0 0 1024 1024" class="tip-icon">
+                  <path
+                    d="M146.286 768c0-20-16.571-36.571-36.571-36.571s-36.571 16.571-36.571 36.571 16.571 36.571 36.571 36.571 36.571-16.571 36.571-36.571zM950.857 438.857c0-38.857-34.857-73.143-73.143-73.143h-329.143c0-36 54.857-73.143 54.857-146.286 0-54.857-42.857-73.143-91.429-73.143-16 0-45.143 66.286-51.429 79.429-6.857 12.571-13.714 25.143-21.143 37.143-18.857 30.286-40.571 56.571-64 82.857-36.571 41.714-77.143 93.143-137.714 93.143h-18.286v365.714h18.286c100 0 197.714 73.143 308.571 73.143 64 0 108-26.857 108-95.429 0-10.857-1.143-21.714-2.857-32 24-13.143 37.143-45.714 37.143-72 0-13.714-3.429-27.429-10.286-39.429 19.429-18.286 30.286-41.143 30.286-68 0-18.286-8-45.143-20-58.857h189.143c39.429 0 73.143-33.714 73.143-73.143zM1024 438.286c0 80-66.286 146.857-146.286 146.857h-96.571c-1.714 24-9.143 46.857-21.143 68 1.143 8 1.714 16.571 1.714 24.571 0 36.571-12 73.143-34.286 101.714 1.143 108-72.571 171.429-178.286 171.429-64 0-124.571-17.714-184-39.429-34.857-12.571-91.429-33.714-127.429-33.714h-164.571c-40.571 0-73.143-32.571-73.143-73.143v-365.714c0-40.571 32.571-73.143 73.143-73.143h164.571c27.429 0 66.286-49.143 82.857-68 20.571-23.429 40-46.857 57.143-73.714 33.143-53.143 57.714-150.857 134.286-150.857 90.857 0 164.571 49.714 164.571 146.286 0 25.143-4 49.714-12.571 73.143h213.714c78.857 0 146.286 66.857 146.286 145.714z"
+                  ></path>
+                </svg>
+                <span class="tip-text Tooltip">
+                  <span>
+                    From here you can also create new text styles with the
+                    currently set properties if you press +
+                  </span>
+                </span>
+              </div>
+            </div>
+            <h2 class="design-tokens-text Subheading">Desired Outcome</h2>
+            <div class="design-tokens-container5">
+              <button class="design-tokens-button Button button">Button</button>
+            </div>
+            <h2 class="design-tokens-text1 Subheading">Give it a try</h2>
+            <div class="design-tokens-container6">
+              <button class="button">Button</button>
+            </div>
+          </div>
+          <div class="navigation-container">
+            <div class="previous-tip previous-root-class-name1">
+              <svg viewBox="0 0 1024 1024" class="previous-icon">
+                <path
+                  d="M981.333 512c0-129.579-52.565-246.997-137.472-331.861s-202.283-137.472-331.861-137.472-246.997 52.565-331.861 137.472-137.472 202.283-137.472 331.861 52.565 246.997 137.472 331.861 202.283 137.472 331.861 137.472 246.997-52.565 331.861-137.472 137.472-202.283 137.472-331.861zM896 512c0 106.069-42.923 201.984-112.469 271.531s-165.461 112.469-271.531 112.469-201.984-42.923-271.531-112.469-112.469-165.461-112.469-271.531 42.923-201.984 112.469-271.531 165.461-112.469 271.531-112.469 201.984 42.923 271.531 112.469 112.469 165.461 112.469 271.531zM682.667 469.333h-238.336l97.835-97.835c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0l-170.667 170.667c-4.096 4.096-7.168 8.789-9.259 13.824s-3.243 10.539-3.243 16.341c0 5.547 1.067 11.136 3.243 16.341 2.091 5.035 5.163 9.728 9.259 13.824l170.667 170.667c16.683 16.683 43.691 16.683 60.331 0s16.683-43.691 0-60.331l-97.835-97.835h238.336c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667z"
+                ></path>
+              </svg>
+              <span class="previous-text Tooltip">
+                <span>Ctrl/Cmd + Page Up</span>
+              </span>
+            </div>
+            <div class="next-tip">
+              <span class="next-text Tooltip">
+                <span>Ctrl/Cmd + Page Down</span>
+              </span>
+              <svg viewBox="0 0 1024 1024" class="next-icon">
+                <path
+                  d="M981.333 512c0-129.579-52.565-246.997-137.472-331.861s-202.283-137.472-331.861-137.472-246.997 52.565-331.861 137.472-137.472 202.283-137.472 331.861 52.565 246.997 137.472 331.861 202.283 137.472 331.861 137.472 246.997-52.565 331.861-137.472 137.472-202.283 137.472-331.861zM896 512c0 106.069-42.923 201.984-112.469 271.531s-165.461 112.469-271.531 112.469-201.984-42.923-271.531-112.469-112.469-165.461-112.469-271.531 42.923-201.984 112.469-271.531 165.461-112.469 271.531-112.469 201.984 42.923 271.531 112.469 112.469 165.461 112.469 271.531zM341.333 554.667h238.336l-97.835 97.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l170.667-170.667c3.925-3.925 7.083-8.619 9.259-13.824 4.309-10.453 4.309-22.229 0-32.683-2.091-5.035-5.163-9.728-9.259-13.824l-170.667-170.667c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l97.835 97.835h-238.336c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                ></path>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
